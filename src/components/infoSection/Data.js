@@ -1,24 +1,24 @@
 export const homeObjOne = {
-    id: "about",
+    id: "abaout",
     lightBg: false,
-    lightText: true,
+    ligthText: true,
     lightTextDesc: true,
-    topLine: "Servicio premium",
-    headLine: " Enviamos tu pedido a todo el país",
-    description: "Ingresa y hace tu pedido ",
-    buttonLabel: " Empecemos",
+    topLine: "contactate con nosotros",
+    headLine: "Dejanos un mensaje en nuestras redes sociales",
+    description: " ",
+    buttonLabel: " Veni!",
     imgStart: false,
     img: require("../../images/svg-1.svg"),
     alt: "Algo",
     dark: true,
     primary: true,
-    darkText: false
+    darkText: true
 };
 export const homeObjTwo = {
     id: "products",
     ligthBg: true,
     lightText: false,
-    lightTextDesc: false,
+    lightTextDesc: true,
     topLine: "Tenemos los mejores productos del pais",
     headLine: " Entra y fijate todo lo que te ofrecemos",
     description: " ",
@@ -26,8 +26,8 @@ export const homeObjTwo = {
     imgStart: false,
     img: require("../../images/svg-1.svg"),
     alt: "Algo",
-    dark: true,
-    primary: true,
+    dark: false,
+    primary: false,
     darkText: false
 };
 export const homeObjThree = {
@@ -44,5 +44,5 @@ export const homeObjThree = {
     alt: "Algo",
     dark: true,
     primary: true,
-    darkText: false
+    darkText: true
 }
