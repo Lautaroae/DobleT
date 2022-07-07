@@ -31,18 +31,18 @@ export const homeObjTwo = {
     darkText: false
 };
 export const homeObjThree = {
-    id: "contact",
-    lightBg: false,
-    ligthText: true,
+    id: "products",
+    ligthBg: true,
+    lightText: false,
     lightTextDesc: true,
-    topLine: "contactate con nosotros",
-    headLine: "Dejanos un mensaje en nuestras redes sociales",
+    topLine: "Tenemos los mejores productos del pais",
+    headLine: " Entra y fijate todo lo que te ofrecemos",
     description: " ",
-    buttonLabel: " Veni!",
+    buttonLabel: " Mira!",
     imgStart: false,
     img: require("../../images/svg-1.svg"),
     alt: "Algo",
-    dark: true,
-    primary: true,
-    darkText: true
+    dark: false,
+    primary: false,
+    darkText: false
 }

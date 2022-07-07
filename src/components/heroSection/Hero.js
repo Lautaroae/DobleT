@@ -20,7 +20,7 @@ const Hero = () => {
                 <HeroH1>Somos una empresa dedicada a la sublimacion</HeroH1>
                 <HeroP>Nos encanta ganar dinero</HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+                    <Button to="SignUp" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
                         Get Started{hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
