@@ -1,9 +1,9 @@
 export const homeObjOne = {
-    id: "abaout",
+    id: "about",
     lightBg: false,
     ligthText: true,
     lightTextDesc: true,
-    topLine: "contactate con nosotros",
+    topLine: "nuestra historia",
     headLine: "Dejanos un mensaje en nuestras redes sociales",
     description: " ",
     buttonLabel: " Veni!",
@@ -31,11 +31,11 @@ export const homeObjTwo = {
     darkText: false
 };
 export const homeObjThree = {
-    id: "products",
+    id: "contact",
     ligthBg: true,
     lightText: false,
     lightTextDesc: true,
-    topLine: "Tenemos los mejores productos del pais",
+    topLine: "contactate con nosotros",
     headLine: " Entra y fijate todo lo que te ofrecemos",
     description: " ",
     buttonLabel: " Mira!",

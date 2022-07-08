@@ -1,22 +1,22 @@
 import "./App.css"
-import { BrowserRouter as Router, Switch, Route, } from "react-router-dom"
+import { BrowserRouter, Routes, Route, } from "react-router-dom"
 import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";
 
+
 function App() {
   return (
-    <>
+    <BrowserRouter>
 
-      <Router>
-        <Switch>
-          <Route path="/" component={<Home />} exact />
-          <Route path="/SignIn" component={<SignIn />} exact />
-        </Switch>
+      <Routes>
 
-      </Router>
+        <Route path="*" element={<Home />}></Route>
+        <Route path="/home" element={<Home />}></Route>
+        <Route path="/SignIn" element={<SignIn />} />
 
+      </Routes>
 
-    </>
+    </BrowserRouter>
   );
 }
 
