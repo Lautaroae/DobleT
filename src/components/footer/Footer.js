@@ -15,24 +15,19 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle> Nosotros </FooterLinkTitle>
-                            <FooterLink to="/SignIn">Nosotros</FooterLink>
-                            <FooterLink to="/SignIn">Nosotros</FooterLink>
-                            <FooterLink to="/SignIn">Nosotros</FooterLink>
-                            <FooterLink to="/SignIn">Nosotros</FooterLink>
+                            <FooterLink to="/about">Historia  </FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle> Nosotros </FooterLinkTitle>
-                            <FooterLink to="/SignIn">Nosotros</FooterLink>
-                            <FooterLink to="/SignIn">Nosotros</FooterLink>
-                            <FooterLink to="/SignIn">Nosotros</FooterLink>
-                            <FooterLink to="/SignIn">Nosotros</FooterLink>
+                            <FooterLinkTitle> Productos </FooterLinkTitle>
+                            <FooterLink to="/products">Sublimaciones</FooterLink>
+                            <FooterLink to="/products">Estampados</FooterLink>
+                            <FooterLink to="/products">Ropa</FooterLink>
+                            <FooterLink to="/products">Utensillos</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle> Nosotros </FooterLinkTitle>
-                            <FooterLink to="/SignIn">Nosotros</FooterLink>
-                            <FooterLink to="/SignIn">Nosotros</FooterLink>
-                            <FooterLink to="/SignIn">Nosotros</FooterLink>
-                            <FooterLink to="/SignIn">Nosotros</FooterLink>
+                            <FooterLinkTitle> Contacto </FooterLinkTitle>
+                            <FooterLink to="/contact">Contacto</FooterLink>
+
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinkContainer>
@@ -43,13 +38,13 @@ const Footer = () => {
                         </SocialLogo>
                         <WebsiteRight>Doble Tilde © {new Date().getFullYear()} All rigths reserved.</WebsiteRight>
                         <SocialIcon>
-                            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                            <SocialIconLink href="https://www.instagram.com/dobletilde_ok/" target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" aria-label="WhatsApp">
+                            <SocialIconLink href="https://wa.me/3512492038" target="_blank" aria-label="WhatsApp">
                                 <FaWhatsapp />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" aria-label="Gmail">
+                            <SocialIconLink href="https://mail.google.com/" target="_blank" aria-label="Gmail">
                                 <SiGmail />
                             </SocialIconLink>
                         </SocialIcon>

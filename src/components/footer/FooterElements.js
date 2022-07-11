@@ -55,7 +55,7 @@ margin-bottom:0.5rem ;
 font-size:14px ;
 
 &:hover{
-    color:#01bf71 ;
+    color:#218cf4 ;
     transition:0.3s ease-in-out ;
 }
 `

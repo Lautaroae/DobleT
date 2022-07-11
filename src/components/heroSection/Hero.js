@@ -17,11 +17,21 @@ const Hero = () => {
                 <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Somos una empresa dedicada a la sublimacion</HeroH1>
-                <HeroP>Nos encanta ganar dinero</HeroP>
+                <HeroH1>Sublimaciones & Merchandising</HeroH1>
+                <HeroP>¡Mira todo lo que tenemos para ofrecerte!</HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
-                        Get Started{hover ? <ArrowForward /> : <ArrowRight />}
+                    <Button to="/products"
+                        onMouseEnter={onHover}
+                        onMouseLeave={onHover}
+                        primary="true"
+                        dark="true"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                        offset={-80}
+                    >
+                        Vamos!{hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

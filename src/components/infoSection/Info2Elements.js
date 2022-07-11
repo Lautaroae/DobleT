@@ -2,14 +2,12 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
 color:#fff ;
-background:${({ ligthBg }) => (ligthBg ? "#f9f9f9" : "#010606")} ;
+background:#f9f9f9 ;
 
 @media screen and (max-width:768px){
     padding:100px 0 ;
 }
-a{
-    text-decoration:none ;
-}
+
 `
 
 export const InfoWrapper = styled.div`
@@ -65,7 +63,7 @@ margin-bottom:24px ;
 font-size:30px ;
 line-height:1.1 ;
 font-weight:600 ;
-color:#f7f8fa ; 
+color:#000; 
 
 @media screen and (max-width:480px){
     font-size:32px ;

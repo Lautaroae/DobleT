@@ -1,35 +1,23 @@
 import React from 'react'
-import { Button } from '../ButtonElement'
 import { InfoContainer, InfoWrapper, InfoRow, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, Column1, Img, ImgWrap } from "./InfoElements"
 
-const Info = ({ ligthBg, id, imgStart, topLine, ligthText, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2 }) => {
+const Info = () => {
+
     return (
         <>
-            <InfoContainer ligthBg={ligthBg} id={id}>
+            <InfoContainer >
                 <InfoWrapper>
-                    <InfoRow imgStart={imgStart}>
+                    <InfoRow>
                         <Column1>
                             <TextWrapper>
-                                <TopLine>{topLine}</TopLine>
-                                <Heading ligthText={ligthText}>{headLine}</Heading>
-                                <Subtitle darkText={darkText}>{description}</Subtitle>
-                                <BtnWrap>
-                                    <Button to="home"
-                                        smooth={true}
-                                        duration={500}
-                                        spy={true}
-                                        exact="true"
-                                        offset={-80}
-                                        primary={primary ? 1 : 0}
-                                        dark={dark ? 1 : 0}
-                                        dark2={dark2 ? 1 : 0}
-                                    >{buttonLabel}</Button>
-                                </BtnWrap>
+                                <TopLine>Nuestra Historia</TopLine>
+                                <Heading>Nos convertimos en una idea de negocio para negocios acompañando al emprendedor en su proyección e imagen empresarial.Plasmamos en lo tangible su identidad profesional, disfrutamos acompañarlos y verlos crecer porque hasta donde ustedes lleguen nosotros llegaremos.</Heading>
+                                <Subtitle></Subtitle>
                             </TextWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt} />
+                                <Img src={process.env.PUBLIC_URL + "/assets/svg-2.svg"} />
                             </ImgWrap>
                         </Column2>
                     </InfoRow>

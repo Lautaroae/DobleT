@@ -21,9 +21,7 @@ const NavBar = ({ toggle }) => {
     const toggleHome = () => {
         scroll.scrollToTop()
     }
-    const toggleAbout = () => {
-        scroll.scrollToTop()
-    }
+
     return (
         <>
             <IconContext.Provider value={{ color: "#fff" }}>
@@ -35,36 +33,43 @@ const NavBar = ({ toggle }) => {
                             <FaBars />
                         </MobileIcon>
                         <NavMenu>
+
                             <NavItem>
-                                <NavLinks to="about"
+                                <NavLinks to="/about"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
                                     exact="true"
                                     offset={0}
+                                >Nosotros
+                                </NavLinks>
 
-                                >Nosotros</NavLinks>
                             </NavItem>
-                            <NavItem>
-                                <NavLinks to="products"
-                                    smooth={true}
-                                    duration={500}
-                                    spy={true}
-                                    exact="true"
-                                    offset={0}
 
-                                >Productos</NavLinks>
-                            </NavItem>
-                            <NavItem>
-                                <NavLinks to="contact"
-                                    smooth={true}
-                                    duration={500}
-                                    spy={true}
-                                    exact="true"
-                                    offset={0}
+                            <a href='/products'>
+                                <NavItem>
+                                    <NavLinks
+                                        smooth={true}
+                                        duration={500}
+                                        spy={true}
+                                        exact="true"
+                                        offset={0}
+                                    >Productos
+                                    </NavLinks>
+                                </NavItem>
+                            </a>
+                            <a href='/contact'>
+                                <NavItem>
+                                    <NavLinks to="/contact"
+                                        smooth={true}
+                                        duration={500}
+                                        spy={true}
+                                        exact="true"
+                                        offset={0}
 
-                                >Contacto</NavLinks>
-                            </NavItem>
+                                    >Contacto</NavLinks>
+                                </NavItem>
+                            </a>
                             <NavItem>
                                 <NavLinks to="signup"
                                     smooth={true}

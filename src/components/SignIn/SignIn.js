@@ -9,13 +9,13 @@ const SignIn = () => {
                     <Icon to="/"></Icon>
                     <FormContent>
                         <Form action="#">
-                            <FormH1>Sign In your account</FormH1>
+                            <FormH1>Inicia sesión con tu cuenta</FormH1>
                             <FormLabel htmlFor="for">Email</FormLabel>
                             <FormInput type="email" required />
-                            <FormLabel htmlFor="for" >password</FormLabel>
+                            <FormLabel htmlFor="for" >contraseña</FormLabel>
                             <FormInput type="password" required />
-                            <FormButton type="submit" >Continue</FormButton>
-                            <Text>Forgot password</Text>
+                            <FormButton type="submit" >Entrar</FormButton>
+                            <Text>¿Se te olvidó tu contraseña?</Text>
                         </Form>
                     </FormContent>
                 </FormWrap>
