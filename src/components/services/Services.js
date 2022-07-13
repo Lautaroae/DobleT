@@ -1,32 +1,46 @@
-import React from 'react'
-import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP } from "./ServicesElements"
-import Icon1 from "../../images/svg-1.svg"
-import Icon2 from "../../images/svg-1.svg"
-import Icon3 from "../../images/svg-1.svg"
+import React, { useState } from 'react'
+import { ServicesContainer, ServicesH1, ServicesCard } from "./ServicesElements"
+import { FaArrowAltCircleLeft, FaArrowCircleRight } from "react-icons/fa"
+import SliderData from './SliderData'
 
-const Services = () => {
+const Services = ({ slides }) => {
+
+    const [current, setCurrent] = useState(0)
+    const length = slides.length
+
+    const nextSlide = () => {
+        setCurrent(current === length - 1 ? 0 : current + 1)
+    }
+    const prevSlide = () => {
+        setCurrent(current === 0 ? length - 1 : current - 1)
+    }
+    console.log(current)
+
+    if (!Array.isArray(slides) || slides.length <= 0) {
+        return null
+    }
+
     return (
         <ServicesContainer id="services">
             <ServicesH1>Mira nuestros trabajos realizados</ServicesH1>
-            <ServicesWrapper>
+            <section className='slider'>
+                <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
+                <FaArrowCircleRight className='right-arrow' onClick={nextSlide} />
                 <ServicesCard>
-                    <ServicesIcon src={Icon1} />
-                    <ServicesH2>Reduce Expenses</ServicesH2>
-                    <ServicesP> te vamos ayudar</ServicesP>
-                </ServicesCard>
-                <ServicesCard>
-                    <ServicesIcon src={Icon2} />
-                    <ServicesH2>Reduce Expenses</ServicesH2>
-                    <ServicesP> te vamos ayudar</ServicesP>
-                </ServicesCard>
-                <ServicesCard>
-                    <ServicesIcon src={Icon3} />
-                    <ServicesH2>Reduce Expenses</ServicesH2>
-                    <ServicesP> te vamos ayudar</ServicesP>
-                </ServicesCard>
 
+                    {SliderData.map((slide, index) => {
+                        return (
+                            <div className={index === current ? "slide active" : "slide"} key={index}>
+                                {index === current && (
+                                    <img src={process.env.PUBLIC_URL + `/assets/products/${slide.image}`} />
+                                )}
 
-            </ServicesWrapper>
+                            </div>
+                        )
+                    })}
+
+                </ServicesCard>
+            </section>
 
         </ServicesContainer>
     )

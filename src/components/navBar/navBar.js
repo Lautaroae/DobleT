@@ -21,9 +21,7 @@ const NavBar = ({ toggle }) => {
     const toggleHome = () => {
         scroll.scrollToTop()
     }
-    const toggleAbout = () => {
-        scroll.scrollToTop()
-    }
+
     return (
         <>
             <IconContext.Provider value={{ color: "#fff" }}>

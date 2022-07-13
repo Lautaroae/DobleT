@@ -5,6 +5,7 @@ import Info2 from '../components/infoSection/Info2'
 import Info3 from '../components/infoSection/Info3'
 import NavBar from '../components/navBar/navBar'
 import Services from '../components/services/Services'
+import SliderData from '../components/services/SliderData'
 
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
       <Hero />
       <Info />
       <Info2 />
-      <Services />
+      <Services slides={SliderData} />
       <Info3 />
 
     </>
