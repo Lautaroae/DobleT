@@ -52,11 +52,12 @@ padding-bottom:60px ;
 
 export const TopLine = styled.p`
 color:#218cf4 ;
-font-size:30px ;
+font-size:22px ;
 line-height:16px ;
 font-weight:700 ;
 letter-spacing:1.4px ;
 text-transform:uppercase ;
+margin-top:25px ;
 margin-bottom:16px ;
 `
 
@@ -68,7 +69,7 @@ font-weight:600 ;
 color:#f7f8fa ; 
 
 @media screen and (max-width:480px){
-    font-size:32px ;
+    font-size:25px ;
 }
 `
 export const Subtitle = styled.p`

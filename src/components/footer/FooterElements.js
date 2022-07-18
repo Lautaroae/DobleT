@@ -23,9 +23,11 @@ padding-top:32px ;
 `
 export const FooterLinksWrapper = styled.div`
 display:flex ;
+flex-wrap:wrap ;
 
 @media screen and(max-width:820px){
     flex-direction:column ;
+    
 }
 `
 export const FooterLinkItems = styled.div`

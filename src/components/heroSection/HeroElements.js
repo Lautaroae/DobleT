@@ -45,7 +45,7 @@ export const HeroContent = styled.div`
 z-index:3 ;
 max-width:1200px ;
 position:absolute ;
-padding:8px 24px ;
+padding:8px 8px ;
 display:flex ;
 flex-direction:column ;
 align-items:center ;
@@ -53,10 +53,16 @@ align-items:center ;
 
 export const HeroH1 = styled.h1`
 color:#fff;
-font-size:48px ;
+font-size:45px ;
 text-align:center ;
+
 @media screen and (max-whidth:480px){
     font-size:32px ;
+}
+
+@media  (max-whidth:380px){
+    font-size:2px ;
+    color:red;
 }
 `
 export const HeroP = styled.p`

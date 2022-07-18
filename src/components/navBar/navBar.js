@@ -28,13 +28,13 @@ const NavBar = ({ toggle }) => {
                 <Nav scrollNav={scrollNav}>
                     <NavBarContainer>
                         <ImgLogo src={Logo} />
-                        <NavLogo to="/" onClick={toggleHome}>Doble Tilde</NavLogo>
+                        <NavLogo to="/home" onClick={toggleHome}>Doble Tilde</NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
                         <NavMenu>
                             <NavItem>
-                                <NavLinks to="about"
+                                <NavLinks to="/about"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
@@ -44,7 +44,7 @@ const NavBar = ({ toggle }) => {
                                 >Nosotros</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="products"
+                                <NavLinks to="/products"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
@@ -54,7 +54,7 @@ const NavBar = ({ toggle }) => {
                                 >Productos</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="contact"
+                                <NavLinks to="/contact"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
@@ -74,7 +74,7 @@ const NavBar = ({ toggle }) => {
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="/SignIn"> Iniciar sesión</NavBtnLink>
+                            <NavBtnLink to="/signIn"> Iniciar sesión</NavBtnLink>
                         </NavBtn>
                     </NavBarContainer>
                 </Nav>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { ServicesContainer, ServicesH1, ServicesCard } from "./ServicesElements"
 import { FaArrowAltCircleLeft, FaArrowCircleRight } from "react-icons/fa"
 import SliderData from './SliderData'
-
+import "./Slider.css"
 const Services = ({ slides }) => {
 
     const [current, setCurrent] = useState(0)
@@ -14,7 +14,7 @@ const Services = ({ slides }) => {
     const prevSlide = () => {
         setCurrent(current === 0 ? length - 1 : current - 1)
     }
-    console.log(current)
+
 
     if (!Array.isArray(slides) || slides.length <= 0) {
         return null
@@ -32,7 +32,7 @@ const Services = ({ slides }) => {
                         return (
                             <div className={index === current ? "slide active" : "slide"} key={index}>
                                 {index === current && (
-                                    <img src={process.env.PUBLIC_URL + `/assets/products/${slide.image}`} />
+                                    <img className="image-Slide" src={process.env.PUBLIC_URL + `/assets/products/${slide.image}`} alt="algo" />
                                 )}
 
                             </div>
