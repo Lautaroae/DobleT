@@ -1,4 +1,6 @@
 
+require("dotenv").config()
+require("./config/dataBase")
 
 const express = require("express");
 const PORT = 4000;
