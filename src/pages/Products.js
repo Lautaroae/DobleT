@@ -1,12 +1,14 @@
 import React from 'react'
-import "../App.css"
-const Products = () => {
+import Products from '../components/products/Products'
+
+
+const Product = () => {
 
     return (
         <>
-            <h1>productos</h1>
+            <Products />
         </>
     )
 }
 
-export default Products
+export default Product
