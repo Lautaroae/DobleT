@@ -8,19 +8,22 @@ import Footer from "./components/footer/Footer";
 import NavBar from "./components/navBar/navBar";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import axios from "axios";
 
 
-function App() {
+
+function App(props) {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggle = () => {
     setIsOpen(!isOpen)
   }
+
   // useEffect(() => {
-  //   axios.get(`http://localhost:4000/api/products`)
-  //     .then.get(response => console.log(response))
-  // }, [])
+  //   if (localStorage.getItem("token") !== null) {
+  //     const token = localStorage.getItem("token");
+  //     props.verifyToken(token);
+  //   }
+  // }, []);
 
   return (
     <BrowserRouter>

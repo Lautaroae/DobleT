@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { Connect } from 'react-redux'
 
-const Products = () => {
+
+const Products = (props) => {
+    useEffect(() => {
+        props.fetchApiData()
+        console.log(props)
+    }, [])
     return (
         <>
-            <h1>Products</h1>
+
         </>
     )
 }
