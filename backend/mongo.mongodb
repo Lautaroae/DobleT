@@ -10,313 +10,313 @@ db.productos.insertMany([
    {
        
         "producto": "Agenda",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Agenda Perpetua",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Almohadon blanco",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Anotador chico",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Anotador mediano",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Azucarera - yerbera blanca",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Babero blanco",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
       
         "producto": "bandeja desayuno madera",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Body bebe blanco",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Body bebe color",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
       
         "producto": "Body bebe gris",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Box emprendedor",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Cantimplora kids",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Chop ceramica",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Combo jardin",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Cuaderno A4",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Cuaderno rivadavia",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Cuchara platica",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
       
         "producto": "Gorra trucker color adulto",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Gorra trucker negra adulto",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
      
         "producto": "Gorra trucker color niño",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Gorra trucker negra niño",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Jarro termico con tapa",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Llavero formas de madera",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Mate cerámica",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Mate listo",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Mate propileno",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Mousepad blanco",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Porta cel madera",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Porta vaso madera",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Remera algodon color niño",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Remera algodon niño",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
       
         "producto": "Remera blanca spum",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Remera color algodón ",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Remera color algodón te ",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Remera gris spun",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Remera gris spun niño",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Remera gris spum te",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Remera gris spum ",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Remera gris spum niño",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Remera gris spum te",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Remera spum blanca niño",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Remera blanca spum",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Rompecabeza madera",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Set jardin blanco",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Set jardin color",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Taza cerámica",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Tenedor poly",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Toalla chica blanca",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Vaso de cafe con tapa poly",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
        
         "producto": "Vaso Starbucks",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
     {
         
         "producto": "Vinilo termosublimable ",
-        "img": "",
+        "image": "",
         "descripcion": "",
     },
 ])

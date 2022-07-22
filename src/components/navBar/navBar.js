@@ -35,9 +35,9 @@ const NavBar = ({ toggle }) => {
                         <NavMenu>
                             <NavItem>
                                 <NavLinks to="/about"
-                                    smooth={true}
+                                    // smooth={true}
                                     duration={500}
-                                    spy={true}
+                                    // spy={true}
                                     exact="true"
                                     offset={0}
 
@@ -45,9 +45,9 @@ const NavBar = ({ toggle }) => {
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="/products"
-                                    smooth={true}
+                                    // smooth={true}
                                     duration={500}
-                                    spy={true}
+                                    // spy={true}
                                     exact="true"
                                     offset={0}
 
@@ -55,9 +55,9 @@ const NavBar = ({ toggle }) => {
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="/contact"
-                                    smooth={true}
+                                    // smooth={true}
                                     duration={500}
-                                    spy={true}
+                                    // spy={true}
                                     exact="true"
                                     offset={0}
 
@@ -65,9 +65,9 @@ const NavBar = ({ toggle }) => {
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="signup"
-                                    smooth={true}
+                                    // smooth={true}
                                     duration={500}
-                                    spy={true}
+                                    // spy={true}
                                     exact="true"
                                     offset={0}
                                 >Regístrate</NavLinks>

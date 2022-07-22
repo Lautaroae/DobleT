@@ -15,9 +15,9 @@ const Info2 = () => {
                                 <Subtitle></Subtitle>
                                 <BtnWrap>
                                     <Button to="/products"
-                                        smooth={true}
+                                        // smooth={true}
                                         duration={500}
-                                        spy={true}
+                                        // spy={true}
                                         exact="true"
                                         offset={-80}
                                     >
